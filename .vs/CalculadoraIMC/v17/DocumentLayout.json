@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\oecs1\\source\\repos\\calculadoraimc\\conversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:conversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\oecs1\\source\\repos\\calculadoraimc\\ventanacalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:ventanacalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Conversor.cs",
+              "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\Conversor.cs",
+              "RelativeDocumentMoniker": "Conversor.cs",
+              "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\Conversor.cs",
+              "RelativeToolTip": "Conversor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T03:01:08.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "VentanaCalculadora.cs",
               "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaCalculadora.cs",
               "RelativeDocumentMoniker": "VentanaCalculadora.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "VentanaCalculadora.cs [Design]",
               "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaCalculadora.cs",
               "RelativeDocumentMoniker": "VentanaCalculadora.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "VentanaCalculadora.Designer.cs",
               "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaCalculadora.Designer.cs",
               "RelativeDocumentMoniker": "VentanaCalculadora.Designer.cs",
