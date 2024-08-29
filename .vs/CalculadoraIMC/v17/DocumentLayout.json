@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\oecs1\\source\\repos\\calculadoraimc\\conversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:conversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\oecs1\\source\\repos\\calculadoraimc\\imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\oecs1\\source\\repos\\calculadoraimc\\ventanacalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\oecs1\\source\\repos\\calculadoraimc\\conversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:conversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\ventanacalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:ventanacalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -34,28 +34,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Conversor.cs",
               "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\Conversor.cs",
               "RelativeDocumentMoniker": "Conversor.cs",
               "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\Conversor.cs",
               "RelativeToolTip": "Conversor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T02:23:06.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IMC.cs",
               "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\IMC.cs",
               "RelativeDocumentMoniker": "IMC.cs",
@@ -63,8 +67,7 @@
               "RelativeToolTip": "IMC.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAA4wBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T02:05:35.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T02:05:35.993Z"
             },
             {
               "$type": "Document",
@@ -76,12 +79,11 @@
               "RelativeToolTip": "VentanaCalculadora.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:22:42.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:22:42.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -101,8 +103,7 @@
               "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaCalculadora.cs [Design]",
               "RelativeToolTip": "VentanaCalculadora.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:20:21.17Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-28T17:20:21.17Z"
             },
             {
               "$type": "Document",
@@ -114,8 +115,7 @@
               "RelativeToolTip": "VentanaCalculadora.Designer.cs",
               "ViewState": "AQIAAGMAAAAAAAAAAAAswGsAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T17:23:00.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:23:00.437Z"
             }
           ]
         }
