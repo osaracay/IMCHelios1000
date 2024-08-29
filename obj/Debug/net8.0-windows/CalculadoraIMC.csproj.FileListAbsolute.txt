@@ -14,3 +14,4 @@ C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\refint\Calcu
 C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.pdb
 C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.genruntimeconfig.cache
 C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\ref\CalculadoraIMC.dll
+C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.sourcelink.json

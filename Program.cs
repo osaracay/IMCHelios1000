@@ -8,11 +8,21 @@ namespace CalculadoraIMC
         [STAThread]
         static void Main()
         {
+
+
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new VentanaCalculadora());
+
+
+            VentanaCalculadora principal = new VentanaCalculadora();
+            Application.Run(principal);
+            /*
             Console.WriteLine("Hola Mundo");
+            IMC valorIMC = new IMC(1.7, 55);
+
+            Console.WriteLine("El IMC es " + valorIMC.getIMC().ToString());
+            */
         }
     }
 }

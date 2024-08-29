@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,13 +12,13 @@ namespace CalculadoraIMC
     internal class IMC
     {
         private double estatura;
+        private string unidadEstatura;
         private double peso;
+        private string unidadPeso = UnidadPeso.kilogramos.ToString();
+        private double valorIMC;
 
         public double Estatura { get => estatura; set => estatura = value; }
         public double Peso { get => peso; set => peso = value; }
-
-        public IMC() {
-        }
 
         public IMC(double estatura, double peso)
         {
@@ -25,11 +26,13 @@ namespace CalculadoraIMC
             Peso = peso;
             Estatura = estatura;
             Peso = peso;
+            valorIMC = estatura*peso;
+            
         }
 
         public double getIMC()
         {
-            return this.estatura * this.peso;
+            return this.valorIMC;
         }
     }
 }
