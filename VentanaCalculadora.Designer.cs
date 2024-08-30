@@ -99,7 +99,6 @@
             // 
             comboUnidadAltura.FormattingEnabled = true;
             comboUnidadAltura.Items.AddRange(new object[] { "centímetros", "pies", "pulgadas" });
-            comboUnidadAltura.SelectedItem = "centímetros";
             comboUnidadAltura.Location = new Point(234, 69);
             comboUnidadAltura.Name = "comboUnidadAltura";
             comboUnidadAltura.Size = new Size(192, 28);
@@ -110,7 +109,6 @@
             comboUnidadPeso.FormattingEnabled = true;
             comboUnidadPeso.Items.AddRange(new object[] { "libras", "kilogramos" });
             comboUnidadPeso.Location = new Point(234, 159);
-            comboUnidadPeso.SelectedItem = "kilogramos";
             comboUnidadPeso.Name = "comboUnidadPeso";
             comboUnidadPeso.Size = new Size(192, 28);
             comboUnidadPeso.TabIndex = 7;
@@ -125,6 +123,7 @@
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
             btnCalcular.Click += btnCalcular_Click;
+            btnCalcular.MouseClick += btnCalcular_MouseClick;
             // 
             // lblResultado
             // 

@@ -15,6 +15,10 @@ namespace CalculadoraIMC
         public VentanaCalculadora()
         {
             InitializeComponent();
+            comboUnidadPeso.SelectedItem = "kilogramos";
+            comboUnidadAltura.SelectedItem = "centímetros";
+            comboUnidadAltura.Enabled = false;
+            comboUnidadPeso.Enabled = false;
         }
 
         //Para validaciones de entrada de texto
@@ -25,12 +29,17 @@ namespace CalculadoraIMC
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnCalcular_MouseClick(object sender, MouseEventArgs e)
+        {
             int valorEstatura = (int)campoEstatura.Value;
             double valorPeso = (double)campoPeso.Value;
             IMC cal = new IMC(valorEstatura, valorPeso);
             double valorIMC = cal.getIMC();
 
-            string resultado = "el resultado es "+valorIMC.ToString();
+            string resultado = "el resultado es " + valorIMC.ToString();
             lblResultado.Text = resultado;
         }
     }
