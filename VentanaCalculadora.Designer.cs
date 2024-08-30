@@ -37,6 +37,7 @@
             comboUnidadAltura = new ComboBox();
             comboUnidadPeso = new ComboBox();
             btnCalcular = new Button();
+            lblResultado = new Label();
             ((System.ComponentModel.ISupportInitialize)campoEstatura).BeginInit();
             ((System.ComponentModel.ISupportInitialize)campoPeso).BeginInit();
             SuspendLayout();
@@ -49,7 +50,6 @@
             lblEstatura.Size = new Size(62, 20);
             lblEstatura.TabIndex = 0;
             lblEstatura.Text = "Estatura";
-            lblEstatura.Click += label1_Click;
             // 
             // lblUnidadEstatura
             // 
@@ -77,35 +77,29 @@
             lblUnidadPeso.Size = new Size(133, 20);
             lblUnidadPeso.TabIndex = 3;
             lblUnidadPeso.Text = "Unidad de medida";
-
             // 
             // campoEstatura
             // 
             campoEstatura.Location = new Point(46, 70);
+            campoEstatura.Maximum = new decimal(new int[] { 200, 0, 0, 0 });
             campoEstatura.Name = "campoEstatura";
             campoEstatura.Size = new Size(150, 27);
             campoEstatura.TabIndex = 4;
-            campoEstatura.Maximum = 200;
-            campoEstatura.Minimum = 0;
-
             campoEstatura.ValueChanged += campoEstatura_ValueChanged;
             // 
             // campoPeso
             // 
             campoPeso.Location = new Point(46, 157);
+            campoPeso.Maximum = new decimal(new int[] { 500, 0, 0, 0 });
             campoPeso.Name = "campoPeso";
             campoPeso.Size = new Size(150, 27);
             campoPeso.TabIndex = 5;
-
-            campoPeso.Minimum = 0;
-            campoPeso.Maximum = 500;
             // 
             // comboUnidadAltura
             // 
-            
             comboUnidadAltura.FormattingEnabled = true;
-            comboUnidadAltura.Items.AddRange(new object[] { "metros", "centímetros", "pies", "pulgadas" });
-            comboUnidadAltura.SelectedItem = "metros";
+            comboUnidadAltura.Items.AddRange(new object[] { "centímetros", "pies", "pulgadas" });
+            comboUnidadAltura.SelectedItem = "centímetros";
             comboUnidadAltura.Location = new Point(234, 69);
             comboUnidadAltura.Name = "comboUnidadAltura";
             comboUnidadAltura.Size = new Size(192, 28);
@@ -114,9 +108,9 @@
             // comboUnidadPeso
             // 
             comboUnidadPeso.FormattingEnabled = true;
-            comboUnidadPeso.Items.AddRange(new object[] { "kilogramos", "libras" });
-            comboUnidadPeso.SelectedItem = "kilogramos";
+            comboUnidadPeso.Items.AddRange(new object[] { "libras", "kilogramos" });
             comboUnidadPeso.Location = new Point(234, 159);
+            comboUnidadPeso.SelectedItem = "kilogramos";
             comboUnidadPeso.Name = "comboUnidadPeso";
             comboUnidadPeso.Size = new Size(192, 28);
             comboUnidadPeso.TabIndex = 7;
@@ -130,12 +124,23 @@
             btnCalcular.TabIndex = 8;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
+            // 
+            // lblResultado
+            // 
+            lblResultado.AutoSize = true;
+            lblResultado.Location = new Point(46, 220);
+            lblResultado.Name = "lblResultado";
+            lblResultado.Size = new Size(14, 20);
+            lblResultado.TabIndex = 9;
+            lblResultado.Text = "r";
             // 
             // VentanaCalculadora
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(477, 289);
+            Controls.Add(lblResultado);
             Controls.Add(btnCalcular);
             Controls.Add(comboUnidadPeso);
             Controls.Add(comboUnidadAltura);
@@ -147,7 +152,6 @@
             Controls.Add(lblEstatura);
             Name = "VentanaCalculadora";
             Text = "Calculadora IMC";
-            Load += VentanaCalculadora_Load;
             ((System.ComponentModel.ISupportInitialize)campoEstatura).EndInit();
             ((System.ComponentModel.ISupportInitialize)campoPeso).EndInit();
             ResumeLayout(false);
@@ -165,5 +169,6 @@
         private ComboBox comboUnidadAltura;
         private ComboBox comboUnidadPeso;
         private Button btnCalcular;
+        private Label lblResultado;
     }
 }

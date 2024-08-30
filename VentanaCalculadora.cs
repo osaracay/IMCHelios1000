@@ -17,19 +17,21 @@ namespace CalculadoraIMC
             InitializeComponent();
         }
 
-        private void VentanaCalculadora_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        //Para validaciones de entrada de texto
         private void campoEstatura_ValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            int valorEstatura = (int)campoEstatura.Value;
+            double valorPeso = (double)campoPeso.Value;
+            IMC cal = new IMC(valorEstatura, valorPeso);
+            double valorIMC = cal.getIMC();
+
+            string resultado = "el resultado es "+valorIMC.ToString();
+            lblResultado.Text = resultado;
         }
     }
 }
