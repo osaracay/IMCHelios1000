@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\ventanacalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:ventanacalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,11 +23,7 @@
       "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:ventanacalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\oecs1\\source\\repos\\calculadoraimc\\conversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\conversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:conversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IMC.cs",
               "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\IMC.cs",
               "RelativeDocumentMoniker": "IMC.cs",
               "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\IMC.cs",
               "RelativeToolTip": "IMC.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAYwB0AAAAzAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwB0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T02:05:35.993Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "VentanaCalculadora.cs",
               "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaCalculadora.cs",
               "RelativeToolTip": "VentanaCalculadora.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAsAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T17:22:42.41Z",
               "EditorCaption": ""
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VentanaCalculadora.cs [Design]",
               "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaCalculadora.cs",
               "RelativeDocumentMoniker": "VentanaCalculadora.cs",
@@ -97,13 +97,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "VentanaCalculadora.Designer.cs",
               "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaCalculadora.Designer.cs",
               "RelativeDocumentMoniker": "VentanaCalculadora.Designer.cs",
               "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaCalculadora.Designer.cs",
               "RelativeToolTip": "VentanaCalculadora.Designer.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAYwBwAAAAbAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T17:23:00.437Z",
               "EditorCaption": ""
@@ -118,8 +118,7 @@
               "RelativeToolTip": "Conversor.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAUwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T16:59:07.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T16:59:07.076Z"
             }
           ]
         }

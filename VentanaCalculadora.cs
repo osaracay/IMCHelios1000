@@ -17,16 +17,16 @@ namespace CalculadoraIMC
             InitializeComponent();
             comboUnidadPeso.SelectedItem = "kilogramos";
             comboUnidadAltura.SelectedItem = "centímetros";
-            comboUnidadAltura.Enabled = false;
-            comboUnidadPeso.Enabled = false;
+            //comboUnidadAltura.Enabled = false;
+            //comboUnidadPeso.Enabled = false;
         }
 
-        //Para validaciones de entrada de texto
+        /*Para validaciones de entrada de texto*/
         private void campoEstatura_ValueChanged(object sender, EventArgs e)
         {
 
         }
-
+        
         private void btnCalcular_Click(object sender, EventArgs e)
         {
 
@@ -41,6 +41,7 @@ namespace CalculadoraIMC
 
             string resultado = "el resultado es " + valorIMC.ToString();
             lblResultado.Text = resultado;
+            MessageBox.Show("tu IMC es "+valorIMC.ToString());
         }
     }
 }
