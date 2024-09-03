@@ -11,28 +11,17 @@ namespace CalculadoraIMC
     public enum UnidadEstatura { metros, centimetros, pulgadas, pies }
     internal class IMC
     {
-        private int estatura;
+        private double estatura;
         private string unidadEstatura;
         private double peso;
         private string unidadPeso = UnidadPeso.kilogramos.ToString();
         private double valorIMC;
 
-        public int Estatura { get => estatura; set => estatura = value; }
-        public double Peso { get => peso; set => peso = value; }
-
-        public IMC(int estatura, double peso)
+        public double getIMC(double estatura, double peso)
         {
-            Estatura = estatura;
-            Peso = peso;
-            Estatura = estatura;
-            Peso = peso;
-            //kg / estatura m^2
-            valorIMC = peso / ((estatura/100) ^ 2);
-            
-        }
 
-        public double getIMC()
-        {
+            double den = Math.Pow(estatura,2);
+            valorIMC = (double)(peso / den);
             return this.valorIMC;
         }
     }

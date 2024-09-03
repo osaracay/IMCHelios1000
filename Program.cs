@@ -15,7 +15,8 @@ namespace CalculadoraIMC
             ApplicationConfiguration.Initialize();
 
 
-            VentanaCalculadora principal = new VentanaCalculadora();
+            //VentanaCalculadora principal = new VentanaCalculadora();
+            VentanaIMC principal = new VentanaIMC();
             Application.Run(principal);
             /*
             Console.WriteLine("Hola Mundo");

@@ -3,7 +3,6 @@ C:\Users\oecs1\source\repos\CalculadoraIMC\bin\Debug\net8.0-windows\CalculadoraI
 C:\Users\oecs1\source\repos\CalculadoraIMC\bin\Debug\net8.0-windows\CalculadoraIMC.runtimeconfig.json
 C:\Users\oecs1\source\repos\CalculadoraIMC\bin\Debug\net8.0-windows\CalculadoraIMC.dll
 C:\Users\oecs1\source\repos\CalculadoraIMC\bin\Debug\net8.0-windows\CalculadoraIMC.pdb
-C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.VentanaCalculadora.resources
 C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.csproj.GenerateResource.cache
 C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraI
 C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.genruntimeconfig.cache
 C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\ref\CalculadoraIMC.dll
 C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.sourcelink.json
+C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.VentanaIMC.resources
