@@ -19,7 +19,7 @@ namespace CalculadoraIMC
 
         public double getIMC(double estatura, double peso)
         {
-
+            /*Formula con unidades de medida kg/m^2 */
             double den = Math.Pow(estatura,2);
             valorIMC = (double)(peso / den);
             return this.valorIMC;

@@ -34,12 +34,14 @@ namespace CalculadoraIMC
          * metroApieCF, pieAmetroCF, kgAlbCF, lbAkgCF, 
          */
 
+        /*IDEA METODO 
+         Metodo estatico que reciba como parametro el numero original, 
+        la unidad de medida inicial, y la unidad de medida final, 
+        luego que devuelva el numero double final conforme a los parametros que se ingresaron
 
-
-        private void crearCF()
-        {   
-            ConversionFactor metroApieCF = new ConversionFactor();
-        }
+        Luego de tener dichos conversores, se ajustara la formula de getIMC en la clase IMC, como tambien
+        la llamada de los metodos desde el evento btnCalcular_Clicked() en VentanaIMC.cs
+        */ 
 
     }
 }

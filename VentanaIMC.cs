@@ -38,6 +38,9 @@ namespace CalculadoraIMC
         }
         private bool validarCampos(TextBox t, double max, double min, Label validLbl)
         {
+            /*Este metodo devuelve boolean. De momento funcionaria igual si le cambiara el return a void
+             La idea de usar return bool para validarCampos supongo habra sido para ponerlo en un while
+            o alguna condicion como lo hice con validar formulario lleno*/
             try
             {
                 if (t.Text.Length > 0)
@@ -116,7 +119,7 @@ namespace CalculadoraIMC
 
                 
                 lblResultado.Text = resultado;
-                MessageBox.Show("tu IMC es " + valorIMC.ToString());
+                MessageBox.Show("Tu IMC es " + valorIMC.ToString());
                 //Obtener valor de las unidades de medida a utilizar
             }
         }
