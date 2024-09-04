@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentanaIMC));
             comboUnidadPeso = new ComboBox();
             comboUnidadAltura = new ComboBox();
             lblUnidadPeso = new Label();
@@ -40,6 +41,8 @@
             campoPeso = new TextBox();
             lblValidEstatura = new Label();
             lblValidPeso = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // comboUnidadPeso
@@ -162,12 +165,23 @@
             lblValidPeso.TabIndex = 19;
             lblValidPeso.Text = "-";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(306, 53);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(248, 203);
+            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.TabIndex = 20;
+            pictureBox1.TabStop = false;
+            // 
             // VentanaIMC
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Azure;
-            ClientSize = new Size(277, 357);
+            BackColor = Color.White;
+            ClientSize = new Size(571, 350);
+            Controls.Add(pictureBox1);
             Controls.Add(lblValidPeso);
             Controls.Add(lblValidEstatura);
             Controls.Add(campoPeso);
@@ -182,6 +196,7 @@
             Controls.Add(lblUnidadEstatura);
             Name = "VentanaIMC";
             Text = "VentanaIMC";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -200,5 +215,6 @@
         private TextBox campoPeso;
         private Label lblValidEstatura;
         private Label lblValidPeso;
+        private PictureBox pictureBox1;
     }
 }
