@@ -33,3 +33,4 @@ C:\Users\OFF-MARCO\Desktop\Repositorio\IMC\obj\Debug\net8.0-windows\CalculadoraI
 C:\Users\OFF-MARCO\Desktop\Repositorio\IMC\obj\Debug\net8.0-windows\CalculadoraIMC.genruntimeconfig.cache
 C:\Users\OFF-MARCO\Desktop\Repositorio\IMC\obj\Debug\net8.0-windows\ref\CalculadoraIMC.dll
 C:\Users\OFF-MARCO\Desktop\Repositorio\IMC\obj\Debug\net8.0-windows\CalculadoraIMC.Properties.Resources.resources
+C:\Users\oecs1\source\repos\CalculadoraIMC\obj\Debug\net8.0-windows\CalculadoraIMC.Properties.Resources.resources

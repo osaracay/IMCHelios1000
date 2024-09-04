@@ -8,19 +8,24 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\OFF-MARCO\\.nuget\\packages\\": {}
+    "C:\\Users\\oecs1\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OFF-MARCO\\Desktop\\Repositorio\\IMC\\CalculadoraIMC.csproj",
+      "projectUniqueName": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\CalculadoraIMC.csproj",
       "projectName": "CalculadoraIMC",
-      "projectPath": "C:\\Users\\OFF-MARCO\\Desktop\\Repositorio\\IMC\\CalculadoraIMC.csproj",
-      "packagesPath": "C:\\Users\\OFF-MARCO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OFF-MARCO\\Desktop\\Repositorio\\IMC\\obj\\",
+      "projectPath": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\CalculadoraIMC.csproj",
+      "packagesPath": "C:\\Users\\oecs1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\OFF-MARCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\oecs1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -69,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
