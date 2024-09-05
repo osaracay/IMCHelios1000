@@ -6,6 +6,7 @@
 .vs/CalculadoraIMC/
 .vs/
 
+
 # User-specific files
 *.rsuser
 *.suo
@@ -399,3 +400,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/.vs/CalculadoraIMC/v17/.suo
+/.vs/CalculadoraIMC/v17/DocumentLayout.json
