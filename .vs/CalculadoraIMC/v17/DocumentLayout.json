@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:conversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\pc-ag\\desktop\\repositorios\\calcularimc\\imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:imc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "VentanaIMC.cs",
-              "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaIMC.cs",
+              "DocumentMoniker": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\CalcularIMC\\VentanaIMC.cs",
               "RelativeDocumentMoniker": "VentanaIMC.cs",
-              "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaIMC.cs",
+              "ToolTip": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\CalcularIMC\\VentanaIMC.cs",
               "RelativeToolTip": "VentanaIMC.cs",
               "ViewState": "AQIAAFEAAAAAAAAAAAAowHkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,11 +55,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IMC.cs",
-              "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\IMC.cs",
+              "DocumentMoniker": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\CalcularIMC\\IMC.cs",
               "RelativeDocumentMoniker": "IMC.cs",
-              "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\IMC.cs",
+              "ToolTip": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\CalcularIMC\\IMC.cs",
               "RelativeToolTip": "IMC.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -69,9 +69,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\CalcularIMC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\Program.cs",
+              "ToolTip": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\CalcularIMC\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -81,9 +81,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Conversor.cs",
-              "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\Conversor.cs",
+              "DocumentMoniker": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\CalcularIMC\\Conversor.cs",
               "RelativeDocumentMoniker": "Conversor.cs",
-              "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\Conversor.cs",
+              "ToolTip": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\CalcularIMC\\Conversor.cs",
               "RelativeToolTip": "Conversor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,15 +91,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VentanaIMC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaIMC.cs",
+              "DocumentIndex": 1,
+              "Title": "VentanaIMC.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\CalcularIMC\\VentanaIMC.cs",
               "RelativeDocumentMoniker": "VentanaIMC.cs",
-              "ToolTip": "C:\\Users\\oecs1\\source\\repos\\CalculadoraIMC\\VentanaIMC.cs [Design]",
-              "RelativeToolTip": "VentanaIMC.cs [Design]",
+              "ToolTip": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\CalcularIMC\\VentanaIMC.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VentanaIMC.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T05:21:11.735Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
