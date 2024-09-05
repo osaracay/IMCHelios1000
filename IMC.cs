@@ -21,7 +21,7 @@ namespace CalculadoraIMC
         {
             /*Formula con unidades de medida kg/m^2 */
             double den = Math.Pow(estatura,2);
-            valorIMC = (double)(peso / den);
+            valorIMC = Math.Round((double)(peso / den),2);
             return this.valorIMC;
         }
     }
