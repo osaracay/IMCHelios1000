@@ -1,13 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\Calculadora_IMC\\IMCHelios1000\\",
+  "WorkspaceRootPath": "C:\\Users\\Aguirre\\Desktop\\Repositorio\\CalculadoraIMC\\IMCHelios1000\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\pc-ag\\desktop\\repositorios\\calculadora_imc\\imchelios1000\\ventanaimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:ventanaimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\pc-ag\\desktop\\repositorios\\calculadora_imc\\imchelios1000\\ventanaimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|c:\\users\\aguirre\\desktop\\repositorio\\calculadoraimc\\imchelios1000\\ventanaimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CFF1BE20-01B7-4CD9-B979-8C0CCEADF197}|CalculadoraIMC.csproj|solutionrelative:ventanaimc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,39 +14,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VentanaIMC.cs",
-              "DocumentMoniker": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\Calculadora_IMC\\IMCHelios1000\\VentanaIMC.cs",
-              "RelativeDocumentMoniker": "VentanaIMC.cs",
-              "ToolTip": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\Calculadora_IMC\\IMCHelios1000\\VentanaIMC.cs",
-              "RelativeToolTip": "VentanaIMC.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAASwH8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T21:25:18.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "VentanaIMC.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\Calculadora_IMC\\IMCHelios1000\\VentanaIMC.cs",
+              "DocumentMoniker": "C:\\Users\\Aguirre\\Desktop\\Repositorio\\CalculadoraIMC\\IMCHelios1000\\VentanaIMC.cs",
               "RelativeDocumentMoniker": "VentanaIMC.cs",
-              "ToolTip": "C:\\Users\\PC-AG\\Desktop\\Repositorios\\Calculadora_IMC\\IMCHelios1000\\VentanaIMC.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Aguirre\\Desktop\\Repositorio\\CalculadoraIMC\\IMCHelios1000\\VentanaIMC.cs [Dise\u00F1o]",
               "RelativeToolTip": "VentanaIMC.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T21:25:00.976Z",
+              "WhenOpened": "2024-09-12T21:09:00.853Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

@@ -88,7 +88,7 @@ namespace CalculadoraIMC
             {
                 return true;
             }
-            lblResultado.Text = "Por favor, llene el Formulario";
+            lblResultado.Text = "Por favor, debes completar todos los campos";
             return false;
         }
 
