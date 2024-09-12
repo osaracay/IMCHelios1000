@@ -95,6 +95,7 @@
             lblResultado.Name = "lblResultado";
             lblResultado.Size = new Size(0, 23);
             lblResultado.TabIndex = 15;
+            
             // 
             // btnCalcular
             // 
@@ -188,7 +189,7 @@
             btnLimpiar.TabIndex = 6;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = false;
-            btnLimpiar.Click += button1_Click;
+            btnLimpiar.Click += btnLimpiar_Click;
             // 
             // VentanaIMC
             // 

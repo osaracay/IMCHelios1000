@@ -20,6 +20,7 @@ namespace CalculadoraIMC
             comboUnidadAltura.SelectedItem = "metros";
             comboUnidadPeso.Enabled = false;
             comboUnidadAltura.Enabled = false;
+            //lblResultado.Text = "aqui toy";
         }
 
         private void comboUnidadAltura_SelectedIndexChanged(object sender, EventArgs e)
@@ -128,7 +129,7 @@ namespace CalculadoraIMC
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnLimpiar_Click(object sender, EventArgs e)
         {
             campoEstatura.Text = string.Empty;
             lblValidEstatura.Text = "-";
