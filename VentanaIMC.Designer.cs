@@ -50,18 +50,20 @@
             // 
             comboUnidadPeso.FormattingEnabled = true;
             comboUnidadPeso.Items.AddRange(new object[] { "libras", "kilogramos" });
-            comboUnidadPeso.Location = new Point(14, 199);
+            comboUnidadPeso.Location = new Point(12, 149);
+            comboUnidadPeso.Margin = new Padding(3, 2, 3, 2);
             comboUnidadPeso.Name = "comboUnidadPeso";
-            comboUnidadPeso.Size = new Size(284, 28);
+            comboUnidadPeso.Size = new Size(249, 23);
             comboUnidadPeso.TabIndex = 11;
             // 
             // comboUnidadAltura
             // 
             comboUnidadAltura.FormattingEnabled = true;
-            comboUnidadAltura.Items.AddRange(new object[] { "metros", "centímetros", "pies", "pulgadas" });
-            comboUnidadAltura.Location = new Point(14, 47);
+            comboUnidadAltura.Items.AddRange(new object[] { "metros", "pies" });
+            comboUnidadAltura.Location = new Point(12, 35);
+            comboUnidadAltura.Margin = new Padding(3, 2, 3, 2);
             comboUnidadAltura.Name = "comboUnidadAltura";
-            comboUnidadAltura.Size = new Size(284, 28);
+            comboUnidadAltura.Size = new Size(249, 23);
             comboUnidadAltura.TabIndex = 10;
             comboUnidadAltura.SelectedIndexChanged += comboUnidadAltura_SelectedIndexChanged;
             // 
@@ -69,9 +71,9 @@
             // 
             lblUnidadPeso.AutoSize = true;
             lblUnidadPeso.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblUnidadPeso.Location = new Point(14, 176);
+            lblUnidadPeso.Location = new Point(12, 132);
             lblUnidadPeso.Name = "lblUnidadPeso";
-            lblUnidadPeso.Size = new Size(136, 20);
+            lblUnidadPeso.Size = new Size(107, 15);
             lblUnidadPeso.TabIndex = 9;
             lblUnidadPeso.Text = "Unidad de medida";
             // 
@@ -79,9 +81,9 @@
             // 
             lblUnidadEstatura.AutoSize = true;
             lblUnidadEstatura.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblUnidadEstatura.Location = new Point(14, 24);
+            lblUnidadEstatura.Location = new Point(12, 18);
             lblUnidadEstatura.Name = "lblUnidadEstatura";
-            lblUnidadEstatura.Size = new Size(136, 20);
+            lblUnidadEstatura.Size = new Size(107, 15);
             lblUnidadEstatura.TabIndex = 8;
             lblUnidadEstatura.Text = "Unidad de medida";
             // 
@@ -90,21 +92,21 @@
             lblResultado.AutoSize = true;
             lblResultado.BackColor = Color.PaleGoldenrod;
             lblResultado.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblResultado.Location = new Point(321, 377);
-            lblResultado.MaximumSize = new Size(429, 100);
+            lblResultado.Location = new Point(281, 283);
+            lblResultado.MaximumSize = new Size(375, 75);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(0, 23);
+            lblResultado.Size = new Size(0, 17);
             lblResultado.TabIndex = 15;
-            
             // 
             // btnCalcular
             // 
             btnCalcular.BackColor = Color.LightGreen;
             btnCalcular.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCalcular.Location = new Point(14, 312);
+            btnCalcular.Location = new Point(12, 234);
+            btnCalcular.Margin = new Padding(3, 2, 3, 2);
             btnCalcular.Name = "btnCalcular";
-            btnCalcular.Padding = new Padding(10, 11, 10, 11);
-            btnCalcular.Size = new Size(284, 61);
+            btnCalcular.Padding = new Padding(9, 8, 9, 8);
+            btnCalcular.Size = new Size(248, 46);
             btnCalcular.TabIndex = 5;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = false;
@@ -114,9 +116,9 @@
             // 
             lblPeso.AutoSize = true;
             lblPeso.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblPeso.Location = new Point(14, 232);
+            lblPeso.Location = new Point(12, 174);
             lblPeso.Name = "lblPeso";
-            lblPeso.Size = new Size(42, 20);
+            lblPeso.Size = new Size(33, 15);
             lblPeso.TabIndex = 13;
             lblPeso.Text = "Peso";
             // 
@@ -124,55 +126,52 @@
             // 
             lblEstatura.AutoSize = true;
             lblEstatura.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblEstatura.Location = new Point(14, 87);
+            lblEstatura.Location = new Point(12, 65);
             lblEstatura.Name = "lblEstatura";
-            lblEstatura.Size = new Size(67, 20);
+            lblEstatura.Size = new Size(52, 15);
             lblEstatura.TabIndex = 12;
             lblEstatura.Text = "Estatura";
             // 
             // campoEstatura
             // 
-            campoEstatura.Location = new Point(14, 111);
-            campoEstatura.Margin = new Padding(3, 4, 3, 4);
+            campoEstatura.Location = new Point(12, 83);
             campoEstatura.Name = "campoEstatura";
-            campoEstatura.Size = new Size(284, 27);
+            campoEstatura.Size = new Size(249, 23);
             campoEstatura.TabIndex = 2;
             campoEstatura.TextChanged += campoEstatura_TextChanged;
             // 
             // campoPeso
             // 
-            campoPeso.Location = new Point(14, 255);
-            campoPeso.Margin = new Padding(3, 4, 3, 4);
+            campoPeso.Location = new Point(12, 191);
             campoPeso.Name = "campoPeso";
-            campoPeso.Size = new Size(284, 27);
+            campoPeso.Size = new Size(249, 23);
             campoPeso.TabIndex = 4;
             campoPeso.TextChanged += campoPeso_TextChanged;
             // 
             // lblValidEstatura
             // 
             lblValidEstatura.AutoSize = true;
-            lblValidEstatura.Location = new Point(150, 145);
+            lblValidEstatura.Location = new Point(131, 109);
             lblValidEstatura.Name = "lblValidEstatura";
-            lblValidEstatura.Size = new Size(15, 20);
+            lblValidEstatura.Size = new Size(12, 15);
             lblValidEstatura.TabIndex = 18;
             lblValidEstatura.Text = "-";
             // 
             // lblValidPeso
             // 
             lblValidPeso.AutoSize = true;
-            lblValidPeso.Location = new Point(150, 289);
+            lblValidPeso.Location = new Point(131, 217);
             lblValidPeso.Name = "lblValidPeso";
-            lblValidPeso.Size = new Size(15, 20);
+            lblValidPeso.Size = new Size(12, 15);
             lblValidPeso.TabIndex = 19;
             lblValidPeso.Text = "-";
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(321, 4);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Location = new Point(281, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(355, 369);
+            pictureBox1.Size = new Size(311, 277);
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 20;
             pictureBox1.TabStop = false;
@@ -182,10 +181,11 @@
             btnLimpiar.BackColor = Color.Crimson;
             btnLimpiar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLimpiar.ForeColor = SystemColors.ControlLightLight;
-            btnLimpiar.Location = new Point(14, 379);
+            btnLimpiar.Location = new Point(12, 284);
+            btnLimpiar.Margin = new Padding(3, 2, 3, 2);
             btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Padding = new Padding(10, 11, 10, 11);
-            btnLimpiar.Size = new Size(284, 61);
+            btnLimpiar.Padding = new Padding(9, 8, 9, 8);
+            btnLimpiar.Size = new Size(248, 46);
             btnLimpiar.TabIndex = 6;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = false;
@@ -193,10 +193,10 @@
             // 
             // VentanaIMC
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(688, 467);
+            ClientSize = new Size(602, 350);
             Controls.Add(btnLimpiar);
             Controls.Add(pictureBox1);
             Controls.Add(lblValidPeso);
@@ -211,7 +211,6 @@
             Controls.Add(comboUnidadAltura);
             Controls.Add(lblUnidadPeso);
             Controls.Add(lblUnidadEstatura);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "VentanaIMC";
             Text = "Calculadora - Índice de Masa Corporal";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

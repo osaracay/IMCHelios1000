@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -7,11 +8,13 @@ using System.Threading.Tasks;
 
 namespace CalculadoraIMC
 {
-    public struct ConversionFactor
-    {
-        public string nombreCF;
-        public double factor;
+    public enum UnidadPeso{
+        kg, lb
+    }
 
+    public enum UnidadAltura
+    {
+        m, pie
     }
     internal class Conversor
     {
@@ -30,18 +33,44 @@ namespace CalculadoraIMC
          * Este depende del tipo de conversion a realizar m a ft, kg a lb, y viceversa. 
          */
 
-        /*tendria que distinguirse cada conversionFactor como 
+        /*HECHO: 
+         *Metodo estatico que reciba como parametro el numero original, 
+        la unidad de medida inicial, y la unidad de medida final, 
+        luego que devuelva el numero double final conforme a los parametros que se ingresaron
+         * tendria que distinguirse cada conversionFactor como 
          * metroApieCF, pieAmetroCF, kgAlbCF, lbAkgCF, 
          */
 
         /*IDEA METODO 
-         Metodo estatico que reciba como parametro el numero original, 
-        la unidad de medida inicial, y la unidad de medida final, 
-        luego que devuelva el numero double final conforme a los parametros que se ingresaron
+
 
         Luego de tener dichos conversores, se ajustara la formula de getIMC en la clase IMC, como tambien
         la llamada de los metodos desde el evento btnCalcular_Clicked() en VentanaIMC.cs
-        */ 
+        */
 
+        public static double convertirPeso(double original, UnidadPeso unidadFinal)
+        {
+            switch(unidadFinal){
+                case UnidadPeso.kg:
+                    return original*LB2KGCF;
+                case UnidadPeso.lb:
+                    return original*KG2LBCF;
+                default:
+                    return original;
+            }            
+        }
+
+        public static double convertirEstatura(double original, UnidadAltura unidadFinal)
+        {
+            switch (unidadFinal)
+            {
+                case UnidadAltura.m:
+                    return original * FT2MCF;
+                case UnidadAltura.pie:
+                    return original * M2FTCF;
+                default:
+                    return original;
+            }
+        }
     }
 }

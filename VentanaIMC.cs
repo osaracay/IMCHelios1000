@@ -18,8 +18,8 @@ namespace CalculadoraIMC
             InitializeComponent();
             comboUnidadPeso.SelectedItem = "kilogramos";
             comboUnidadAltura.SelectedItem = "metros";
-            comboUnidadPeso.Enabled = false;
-            comboUnidadAltura.Enabled = false;
+            //comboUnidadPeso.Enabled = false;
+            //comboUnidadAltura.Enabled = false;
             //lblResultado.Text = "aqui toy";
         }
 
@@ -30,7 +30,7 @@ namespace CalculadoraIMC
 
         private void campoEstatura_TextChanged(object sender, EventArgs e)
         {
-            validarCampos(campoEstatura, 2.20, 0, lblValidEstatura);
+            validarCampos(campoEstatura, 7, 0, lblValidEstatura);
         }
 
         private void campoPeso_TextChanged(object sender, EventArgs e)
@@ -93,16 +93,41 @@ namespace CalculadoraIMC
             return false;
         }
 
+        UnidadAltura unidadAltura;
+        UnidadPeso unidadPeso;
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+            
             if (ValidarFormularioLleno())
             {
                 double estatura = double.Parse(campoEstatura.Text);
                 double peso = double.Parse(campoPeso.Text);
 
+                //OBTENER LAS MEDIDAS
+                string campoUnitEstatura = comboUnidadAltura.Text;
+                string campoUnitPeso = comboUnidadPeso.Text;                               
+                if (campoUnitEstatura == "metros")
+                {
+                    unidadAltura = UnidadAltura.m;
+                }
+                else if(campoUnitEstatura == "pies")
+                {
+                    unidadAltura = UnidadAltura.pie;
+                }
+
+                if (campoUnitPeso == "kilogramos")
+                {
+                    unidadPeso = UnidadPeso.kg;
+                }else if(campoUnitPeso == "libras")
+                {
+                    unidadPeso = UnidadPeso.lb;
+                }
+                
+
+
 
                 IMC cal = new IMC();
-                double valorIMC = cal.getIMC(estatura, peso);
+                double valorIMC = cal.getIMC(estatura, unidadAltura,peso,unidadPeso);
 
                 string resultado = "Tu IMC es " + Math.Round(valorIMC, 2).ToString() + "\n";
                 if (valorIMC > 30.0)
